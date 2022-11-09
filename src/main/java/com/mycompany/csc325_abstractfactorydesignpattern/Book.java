@@ -13,6 +13,6 @@ public class Book implements WrittenPiece {
     @Override
     public void typeOfPiece() {
         System.out.println("Book is a written piece");
-    }
-    
+    } // End typeOfPiece.
+
 }

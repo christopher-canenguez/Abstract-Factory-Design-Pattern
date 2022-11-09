@@ -8,4 +8,4 @@ public interface WrittenPiece {
     
     void typeOfPiece();
        
-}
+} // End WritingPiece.

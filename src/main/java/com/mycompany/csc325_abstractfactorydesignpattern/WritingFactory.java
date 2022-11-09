@@ -13,4 +13,4 @@ public interface WritingFactory {
     Illustration drawSomething();
     WrittenPiece writeSomething();
     
-}
+} // End WritingFactory.

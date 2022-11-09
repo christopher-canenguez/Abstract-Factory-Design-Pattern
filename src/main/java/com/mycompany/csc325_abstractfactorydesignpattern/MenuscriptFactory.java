@@ -13,11 +13,11 @@ public class MenuscriptFactory implements WritingFactory {
     @Override
     public Illustration drawSomething() {
         return new Charts();
-    }
+    } // End drawaSomething.
 
     @Override
     public WrittenPiece writeSomething() {
         return new PublicationPaper();
-    }
-    
-}
+    } // End writeSomething.
+
+} // End MenuscriptFactory.

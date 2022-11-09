@@ -10,7 +10,7 @@ package com.mycompany.csc325_abstractfactorydesignpattern;
  */
 public class DriverClass {
 
-    private static Application configureApplication(){
+    private static Application configureApplication() {
 
         Application app;
         WritingFactory factory;
@@ -25,10 +25,10 @@ public class DriverClass {
             app = new Application(factory);
         }
         return app;
-    }
+    } // End configureApplication.
 
     public static void main(String[] args) {
         Application app = configureApplication();
         app.revealContent();
-    }
-}
+    } // End main.
+} // End Application.

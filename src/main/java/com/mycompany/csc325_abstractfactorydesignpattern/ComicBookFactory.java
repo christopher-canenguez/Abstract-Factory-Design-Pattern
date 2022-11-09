@@ -13,11 +13,11 @@ public class ComicBookFactory implements WritingFactory {
     @Override
     public Illustration drawSomething() {
         return new HandDrawing();
-    }
+    } // End drawSomething.
 
     @Override
     public WrittenPiece writeSomething() {
         return new Book();
-    }
-    
+    } // End writeSomething.
+
 }

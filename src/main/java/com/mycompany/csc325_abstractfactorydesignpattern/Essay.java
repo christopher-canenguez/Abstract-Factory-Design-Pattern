@@ -13,6 +13,6 @@ public class Essay implements WrittenPiece {
     @Override
     public void typeOfPiece() {
         System.out.println("Essay is a written piece");
-    }
+    } // End typeOfPiece.
     
-}
+} // End Essay.

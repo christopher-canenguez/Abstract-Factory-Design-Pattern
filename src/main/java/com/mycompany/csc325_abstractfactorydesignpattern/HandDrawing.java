@@ -14,6 +14,6 @@ public class HandDrawing implements Illustration {
     public void depictInfo() {
         System.out.println("Hand drawing is traditionally the meaning "
                 + "of illustration ");
-        }
-    
-}
+    } // End depictInfo.
+
+} // End HandDrawing.

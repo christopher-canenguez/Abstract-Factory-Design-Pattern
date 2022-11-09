@@ -12,19 +12,18 @@ import java.awt.print.Paper;
  */
 public class Application {
     //Application to describe a publication
-    
-    private WrittenPiece paper ;
+
+    private WrittenPiece paper;
     private Illustration drawing;
 
     public Application(WritingFactory factory) {
         drawing = factory.drawSomething();
         paper = factory.writeSomething();
-    }
-    
-    public void revealContent(){
+    } // End Application.
+
+    public void revealContent() {
         paper.typeOfPiece();
         drawing.depictInfo();
-    }
-    
-    
-}
+    } // End revealContent.
+
+} // End Applicaation.

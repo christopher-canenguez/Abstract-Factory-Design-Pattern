@@ -14,6 +14,6 @@ public class Charts implements Illustration {
     public void depictInfo() {
         System.out.println("Charts is a type of illustration usually included+"
                 + "in written pieces such as books and articles. ");
-    }
-    
+    } // End depictInfo.
+
 }
